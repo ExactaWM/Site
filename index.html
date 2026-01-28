@@ -15,7 +15,7 @@
         }
 
         html {
-            scroll-behavior: dsmooth;
+            scroll-behavior: smooth;
         }
 
         body {
@@ -27,6 +27,15 @@
 
         h1, h2, h3 {
             font-family: 'Playfair Display', Georgia, serif;
+        }
+
+        .privacy-link {
+            color: #a0aec0;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .privacy-link:hover {
+            color: white;
         }
 
         /* Navigation */
@@ -684,9 +693,13 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="footer-credit">© 2026 Exacta Wealth Management EAF. Todos los derechos reservados.</div>
+            <div class="footer-credit">
+                © 2026 Exacta Wealth Management EAF. Todos los derechos reservados. |
+                <a href="#privacidad" class="privacy-link">Política de Privacidad</a>
+            </div>
             <div class="footer-legal">Entidad de Asesoramiento Financiero regulada por la CNMV</div>
         </div>
+        
     </footer>
 
     <script>
